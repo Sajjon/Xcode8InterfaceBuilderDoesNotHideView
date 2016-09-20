@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HideDoesNotWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h8t-0d-Qbg" userLabel="Green View">
+                                <color key="backgroundColor" red="0.093441855470000001" green="0.85724431820000002" blue="0.071621014339999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4pk-Tz-r4K" userLabel="Red View">
+                                <color key="backgroundColor" red="1" green="0.030149795956845304" blue="0.080433953332408215" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="4pk-Tz-r4K" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4Op-Bp-AR7"/>
+                            <constraint firstAttribute="trailing" secondItem="4pk-Tz-r4K" secondAttribute="trailing" id="FTx-Xy-hEO"/>
+                            <constraint firstItem="4pk-Tz-r4K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JTk-QD-FyW"/>
+                            <constraint firstItem="h8t-0d-Qbg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nrq-9n-hnR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4pk-Tz-r4K" secondAttribute="bottom" id="R1r-id-eaF"/>
+                            <constraint firstAttribute="trailing" secondItem="h8t-0d-Qbg" secondAttribute="trailing" id="UWN-sw-mic"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h8t-0d-Qbg" secondAttribute="bottom" id="dmF-7f-Zio"/>
+                            <constraint firstItem="h8t-0d-Qbg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jgL-7e-YCE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="122"/>
+        </scene>
+    </scenes>
+</document>
